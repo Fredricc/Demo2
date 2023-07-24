@@ -10,11 +10,11 @@
 
             if (firstNumber >= 0 && firstNumber <= 100)
             {
-                Console.WriteLine("Number is within 0 to 100.");
+                Console.WriteLine("This is the expected input");
             }
             else
             {
-                Console.WriteLine("Number is not within 0 to 100.");
+                Console.WriteLine("The given number is out of range.");
             }
         }
     }

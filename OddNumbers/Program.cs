@@ -1,4 +1,4 @@
-﻿namespace EvenNumbers
+﻿namespace OddNumbers
 {
     internal class Program
     {
@@ -10,13 +10,13 @@
 
             int reminder = firstNumber % 2;
 
-            if (reminder == 0)
+            if (reminder == 1)
             {
-                Console.WriteLine("The given number is even");
+                Console.WriteLine("The given number is odd");
             }
             else
             {
-                Console.WriteLine("The given number is not even");
+                Console.WriteLine("The given number is not odd");
             }
         }
     }
