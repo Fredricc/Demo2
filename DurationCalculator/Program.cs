@@ -1,4 +1,6 @@
-﻿namespace DurationCalculator
+﻿using System.Globalization;
+
+namespace DurationCalculator
 {
     internal class Program
     {
@@ -19,6 +21,16 @@
             Console.WriteLine($"Hours :{duration.Hours}");
             Console.WriteLine($"Minutes :{duration.Minutes}");
             Console.WriteLine($"Seconds :{duration.Seconds}");
+
+            Console.WriteLine("Enter the year");
+            string input = Console.ReadLine();
+            int year = Convert.ToInt32(input);
+            Console.WriteLine(DateTime.IsLeapYear(year));
+
+            Console.WriteLine(DateTime.Now.ToString("yyyy-MM-dd"));
+            Console.WriteLine(DateTime.Now.ToString("yyyy-MMMM-dd"));
+            Console.WriteLine(DateTime.Now.ToString(new CultureInfo("en-US")));
+            Console.WriteLine(DateTime.Now.ToString(new CultureInfo("en-IN")));
         }
     }
 }
