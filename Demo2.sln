@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurationCalculator", "Durat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Looping", "Demo_Looping\Demo_Looping.csproj", "{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While_Loop", "While_Loop\While_Loop.csproj", "{62153F17-382B-4A73-BE86-002C7F3AEA80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62153F17-382B-4A73-BE86-002C7F3AEA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62153F17-382B-4A73-BE86-002C7F3AEA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62153F17-382B-4A73-BE86-002C7F3AEA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62153F17-382B-4A73-BE86-002C7F3AEA80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
