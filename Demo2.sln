@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6.AcceptTwoNumbers", "Accep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.EvenNumbers", "1.EvenNumbers\1.EvenNumbers.csproj", "{29D45DB7-35D2-4EB0-A2CE-451CDCECB417}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{F18E199B-B78E-4853-A7FC-6B93A6D8C2F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateTime", "DateTime\DateTime.csproj", "{F18E199B-B78E-4853-A7FC-6B93A6D8C2F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DurationCalculator", "DurationCalculator\DurationCalculator.csproj", "{25E2BD9F-5A63-4D1B-93F6-819E31A597B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DurationCalculator", "DurationCalculator\DurationCalculator.csproj", "{25E2BD9F-5A63-4D1B-93F6-819E31A597B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo_Looping", "Demo_Looping\Demo_Looping.csproj", "{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{25E2BD9F-5A63-4D1B-93F6-819E31A597B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25E2BD9F-5A63-4D1B-93F6-819E31A597B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25E2BD9F-5A63-4D1B-93F6-819E31A597B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4B5432A-9589-4B46-A2E9-AEEC4220CF3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
